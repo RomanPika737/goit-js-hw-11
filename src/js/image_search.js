@@ -29,7 +29,7 @@ loadMoreBtn.addEventListener('click', onSearchImages);
 function onSearchImages() {
   if (searchQuery === "") {
         // console.log(data.hits)
-        // loadMoreBtn.classList.add('visually-hidden');
+        loadMoreBtn.classList.add('visually-hidden');
         Notiflix.Notify.failure('Sorry, there are no images matching your search query. Please try again.');
         return;
       }
